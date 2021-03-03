@@ -351,6 +351,13 @@
 
 
 /* Aqui comienzan los estilos perzonalizados */
+
+html{
+  height: 100%;
+}
+
 body{
-    background-color: #020C1B;
+  display: grid;
+  background-color: #020C1B;
+  min-height: 100%;
 }

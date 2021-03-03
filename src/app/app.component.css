@@ -1,0 +1,37 @@
+.container{
+    display: grid;
+    grid-template-columns: 15% 1fr 15%;
+    grid-template-rows: 15% 1fr;
+    min-height: 100%;
+}
+
+.NavBar_{
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.Centro_Body{
+    background-color: salmon;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.Asaid-Dr{
+    background-color: thistle;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.Asaid-Iz{
+
+    background-color: teal;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
