@@ -20,6 +20,16 @@
 }
 
 .button_{
+    transition-duration: 0.2s;
     width: 100%;
+    text-decoration: none;
     border-radius: 5px;
+    background-color:rgba(0, 0, 0, 0);
+    color: #64FFDA;
+    border: 1px solid #64FFDA;  
+}
+
+.button_:hover{
+    transition-duration: 0.2s;
+    background-color: rgba(32, 133, 109, 0.2) ;
 }
