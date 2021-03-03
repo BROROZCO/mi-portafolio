@@ -1,6 +1,7 @@
 .numero{
     display: inline-block;
     font-family: 'Fira Code', monospace;
+    color: #64FFDA;
 }
 
 .contenedor{
@@ -19,8 +20,20 @@
     margin: 2%;
 }
 
+.enlace{
+    transition-duration: 0.3s;
+    text-decoration: none;
+    color: #D1D1D1;
+    font-family: 'Roboto', sans-serif;
+}
+
+.enlace:hover{
+    transition-duration: 0.3s;
+    color: #64FFDA;
+}
+
 .button_{
-    transition-duration: 0.2s;
+    transition-duration: 0.5s;
     width: 100%;
     text-decoration: none;
     border-radius: 5px;
@@ -30,6 +43,8 @@
 }
 
 .button_:hover{
-    transition-duration: 0.2s;
+    cursor: pointer;
+    transition-duration: 0.3s;
     background-color: rgba(32, 133, 109, 0.2) ;
 }
+
