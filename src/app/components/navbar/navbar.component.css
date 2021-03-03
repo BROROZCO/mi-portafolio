@@ -1,0 +1,25 @@
+.numero{
+    display: inline-block;
+    font-family: 'Fira Code', monospace;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    font-family: 'Roboto', sans-serif;
+}
+
+.link{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    grid-gap: 2%;
+    margin: 2%;
+}
+
+.button_{
+    width: 100%;
+    border-radius: 5px;
+}
