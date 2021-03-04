@@ -1,0 +1,24 @@
+html{
+    height:  100% ;
+}
+.cont-asaid-D{
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 2fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.5fr ;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imagenes-aside{
+    width: 100%;
+}
+
+.Line-imagen{
+    position: relative;
+    height: 100%;
+    width: 1px;
+}
+
+
