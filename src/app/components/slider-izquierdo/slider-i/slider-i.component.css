@@ -1,0 +1,33 @@
+html{
+    height:  100% ;
+}
+
+.contenedor-asaid-izquierdo{
+    display: grid;
+    min-height: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 0.35fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.Line-imagen{
+    height: 100%;
+    width: 1px;
+}
+
+.letras{
+    /* letter-spacing: 3px ; */
+}
+
+.correo{
+    /* font-size: 120%; */
+    height: 4%;
+    background: slateblue;
+    color: #D1D1D1; 
+    transform: rotate(90deg);
+}
+
+
