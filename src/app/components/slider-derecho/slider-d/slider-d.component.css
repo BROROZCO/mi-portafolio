@@ -13,9 +13,30 @@ html{
 
 .imagenes-aside{
     cursor: pointer;
-
+    
+}
+.enlace{
+    text-decoration: none;
+    color: #E6F1FF;
+}
+.enlace:hover{
+    text-decoration: none;
+    color: #64FFDA;
 }
 
+.cursor {
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #E6F1FF;
+    font-size: 140%;
+}
+
+.cursor:hover{
+    transition: 0.3s;
+    color: #64FFDA;
+    transform: translateY(-15%);
+}
 
 
 .Line-imagen{
