@@ -6,27 +6,42 @@ html{
     display: grid;
     min-height: 100%;
     grid-template-columns: 1fr;
-    grid-template-rows: 2fr 0.35fr;
+    grid-template-rows: 2fr 0.30fr;
     justify-items: center;
     align-items: center;
     text-align: center;
-
+    font-family: 'Fira Code', monospace;
 }
 
+
 .Line-imagen{
+    margin-bottom: 0%;
+    padding-bottom: 0%;
     height: 100%;
     width: 1px;
+    margin-left: -25%;
 }
 
 .letras{
     /* letter-spacing: 3px ; */
+    transition: 0.3s;
+    text-decoration: none;
+    color: #D1D1D1; 
 }
+
+.letras:hover{
+    transition: 0.3s;
+    color: #64FFDA;
+}
+
 
 .correo{
     /* font-size: 120%; */
-    height: 4%;
-    background: slateblue;
-    color: #D1D1D1; 
+    position: relative;
+    font-size: 100%;
+    height: 5%;
+    margin-bottom: -155%;
+    margin-left: -30%;
     transform: rotate(90deg);
 }
 
