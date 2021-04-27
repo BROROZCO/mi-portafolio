@@ -13,13 +13,18 @@ html{
     font-family: 'Fira Code', monospace;
 }
 
-
 .Line-imagen{
-    margin-bottom: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 1px;
+    margin-left: -5%;
+    /* margin-bottom: 0%;
     padding-bottom: 0%;
     height: 100%;
     width: 1px;
-    margin-left: -25%;
+    padding: 0 0 0 0; */
 }
 
 .letras{
@@ -36,13 +41,20 @@ html{
 
 
 .correo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(90deg);
+    margin-bottom: -165%;
+    height: 3%;
+    margin-left: -5%;
+
     /* font-size: 120%; */
-    position: relative;
+    /* position: relative;
     font-size: 100%;
     height: 5%;
-    margin-bottom: -155%;
     margin-left: -30%;
-    transform: rotate(90deg);
+     */
 }
 
 
