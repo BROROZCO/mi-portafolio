@@ -1,0 +1,34 @@
+.container-body-viewport{
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin: 8% 0 0 8%;
+    padding: 0 0 0 8%;
+}
+
+.name-1{
+    padding: 0;
+    margin: 0;
+    font-family: 'Fira Code', monospace;
+    font-size: 200%;
+    color: #64FFDA;
+}
+.name-2{
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 1000;
+    font-size: 500%;
+    color: #D1D1D1;
+}
+
+.name-3{
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 1000;
+    font-size: 500%;
+    color: #A0A0A0;
+}
+
+.aboutme{
+    
+}

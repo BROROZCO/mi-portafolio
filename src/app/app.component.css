@@ -12,7 +12,8 @@
 }
 
 .Centro_Body{
-    background-color: salmon;
+    /* background-color: salmon; */
+    background-color:#020C1B;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
