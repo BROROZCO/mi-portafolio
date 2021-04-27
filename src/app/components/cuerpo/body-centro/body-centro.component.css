@@ -30,5 +30,30 @@
 }
 
 .aboutme{
-    
+    margin: 3% 0 0 0;
+    color: rgba(168, 178, 209, 0.7);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 150%;
+}
+
+
+.button_{
+     /* Arriba | Derecha | Abajo | Izquierda */
+    font-family: 'Fira Code', monospace;
+    font-size: 110%;
+    transition-duration: 0.5s;
+    margin: 2% 0 0 0;
+    padding: 2% 0 2% 0;
+    width: 20%;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color:rgba(0, 0, 0, 0);
+    color: #64FFDA;
+    border: 1px solid #64FFDA;  
+}
+
+.button_:hover{
+    cursor: pointer;
+    transition-duration: 0.3s;
+    background-color: rgba(32, 133, 109, 0.2) ;
 }
