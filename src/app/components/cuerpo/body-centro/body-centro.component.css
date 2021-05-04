@@ -46,7 +46,7 @@
     padding: 2% 0 2% 0;
     width: 20%;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 7px;
     background-color:rgba(0, 0, 0, 0);
     color: #64FFDA;
     border: 1px solid #64FFDA;  
@@ -56,4 +56,55 @@
     cursor: pointer;
     transition-duration: 0.3s;
     background-color: rgba(32, 133, 109, 0.2) ;
+}
+
+@media (max-width: 960px){
+
+    .name-1{
+        padding: 0;
+        margin: 0;
+        font-family: 'Fira Code', monospace;
+        font-size: 150%;
+        color: #64FFDA;
+    }
+
+    .name-2{
+        padding: 0;
+        margin: 0;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 1000;
+        font-size: 330%;
+        color: #D1D1D1;
+    }
+
+    .name-3{
+        padding: 0;
+        margin: 0;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 1000;
+        font-size: 330%;
+        color: #A0A0A0;
+    }
+    .aboutme{
+        margin: 2% 0 0 0;
+        color: rgba(168, 178, 209, 0.7);
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 120%;
+    }
+
+    .button_{
+        /* Arriba | Derecha | Abajo | Izquierda */
+       font-family: 'Fira Code', monospace;
+       font-size: 100%;
+       transition-duration: 0.5s;
+       margin: 2% 0 0 0;
+       padding: 2% 0 2% 0;
+       width: 20%;
+       text-decoration: none;
+       border-radius: 7px;
+       background-color:rgba(0, 0, 0, 0);
+       color: #64FFDA;
+       border: 1px solid #64FFDA;  
+   }
+
 }

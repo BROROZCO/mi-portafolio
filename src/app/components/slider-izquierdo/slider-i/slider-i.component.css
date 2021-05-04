@@ -57,4 +57,42 @@ html{
      */
 }
 
+@media (max-width: 960px)
+{
+    .contenedor-asaid-izquierdo{
+        display: none;
+        min-height: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 70% 30%;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        font-family: 'Fira Code', monospace;
+    }
+}
+
+@media (max-width: 1280px)
+{
+    .correo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 93%;
+        transform: rotate(90deg);
+        margin-bottom: -165%;
+        height: 8%;
+        margin-left: -15%;
+    }
+
+    .Line-imagen{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 1px;
+        margin-left: -15%;
+    }
+
+}
+
 

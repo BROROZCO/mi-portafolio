@@ -60,3 +60,44 @@
     background-color: rgba(32, 133, 109, 0.2);
 }
 
+
+@media (max-width: 960px)
+{
+    .contenedor{
+        display: grid;
+        grid-template-columns: 30% 1fr;
+        grid-template-rows: 1fr;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .logo{
+        transition-duration: 0.3s;
+        color: #64FFDA;
+        /* Arriba | Derecha | Abajo | Izquierda */
+        padding: 0% 0 0 0%;
+        margin: 3% 0 0 2%;
+        font-size: 100%;
+    }
+
+}
+
+@media (max-width: 1280px)
+{
+    .button_{
+        transition-duration: 0.5s;
+        width: 90%;
+        text-decoration: none;
+        border-radius: 5px;
+        background-color:rgba(0, 0, 0, 0);
+        color: #64FFDA;
+        border: 1px solid #64FFDA;  
+    }
+
+    .logo{
+        transition-duration: 0.3s;
+        color: #64FFDA;
+        /* Arriba | Derecha | Abajo | Izquierda */
+        padding: 3% 0 0 6%;
+        font-size: 200%;
+    }
+}
